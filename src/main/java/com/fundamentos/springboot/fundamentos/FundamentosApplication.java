@@ -20,7 +20,6 @@ public class FundamentosApplication implements CommandLineRunner {
 		this.myBean = myBean;
 		this.myBeanWithProperties = myBeanWithProperties;
 	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(FundamentosApplication.class, args);
 	}
